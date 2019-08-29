@@ -227,6 +227,11 @@ namespace LitePlacer
 
             Display_dataGridView.DataError += new
                 DataGridViewDataErrorEventHandler(Display_dataGridView_DataError);
+
+            if (BackupSettings.DoBackupNow() == false)
+            {
+                DisplayText("Error creating backups, check your settings backups...", KnownColor.Red, true);
+            }
         }
 
         // ==============================================================================================

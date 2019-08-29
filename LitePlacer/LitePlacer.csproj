@@ -167,6 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppSettings.cs" />
+    <Compile Include="BackupSettings.cs" />
     <Compile Include="BoardSettings.cs" />
     <Compile Include="Camera.cs" />
     <Compile Include="CNC.cs" />
